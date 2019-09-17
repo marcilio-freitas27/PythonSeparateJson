@@ -8,3 +8,4 @@ Task for a job
   # Info
   
   * The script main.py is used to generate a .json files with data taken of the another .json file.
+  * The name and count of the files are based in usersnames in .json file.
