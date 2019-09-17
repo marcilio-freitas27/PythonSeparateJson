@@ -20,7 +20,7 @@ data['user'] = []
 data['text'] = []
 
 # Eu tentei criar arquivos .json e separar por nomes de usuários e suas mensagens. Esse é uma das tentativas.
-# I tryed create files .json and to separate per names of users and your messages. This is one of the attemps
+# I tried create files .json and to separate per names of users and your messages. This is one of the attemps
 for i in range(0,213):
     json.dump(data,open('data{}.json'.format(names[i]), 'w'))
     data['user'].append(names[i])
